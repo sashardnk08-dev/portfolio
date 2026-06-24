@@ -1,0 +1,17 @@
+{% set nav = [
+  { title: 'Главная', href: '/' }
+] %}
+
+<header class="header">
+  <p>Портфолио</p>
+
+  <nav class="nav">
+    {% for link in nav %}
+      {% if link.href == page.url %}
+        <span>{{ link.title }}</span>
+      {% else %}
+        <a href="{{ link.href }}">{{ link.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+</header>

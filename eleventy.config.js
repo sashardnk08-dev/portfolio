@@ -1,11 +1,12 @@
 module.exports = function (conf) {
-  conf.addPassthroughCopy('./src/styles');
-  conf.addPassthroughCopy('./src/images');
+  conf.addPassthroughCopy('./src/style.css');
+  conf.addPassthroughCopy('./src/assets');
 
   return {
     dir: {
       input: './src',
+      includes: './includes'
     },
-    htmlTemplateEngine: false,
-  };
-};
+    htmlTemplateEngine: 'njk'
+  }
+}
