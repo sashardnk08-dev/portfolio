@@ -22,6 +22,10 @@ a:hover {
   color: crimson;
 }
 
+.promo-p {
+  background-color: yellow;
+}
+
 .big {
   font-size: 30px;
   font-style: italic;
