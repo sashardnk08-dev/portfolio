@@ -13,11 +13,25 @@ img {
   margin: 50px;
 }
 
-figure {
-  margin: 0;
+figcaption a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  color: crimson;
 }
 
 .big {
   font-size: 30px;
   font-style: italic;
+}
+
+.framed {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#this-exact-paragraph {
 }
