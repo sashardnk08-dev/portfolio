@@ -16,3 +16,7 @@ img {
 figure {
   margin: 0;
 }
+
+.big {
+  font-size: 30;
+}
